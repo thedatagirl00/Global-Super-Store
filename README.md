@@ -1,4 +1,5 @@
 
+```markdown
 # Global Superstore Sales Analysis
 
 ## Project Overview
@@ -56,6 +57,8 @@ The analysis uses the `Global_Superstore2.xlsx` dataset, which contains detailed
 ## Conclusion and Recommendations
 The analysis reveals critical areas where high sales do not translate into profit, primarily driven by excessive discounts, high shipping costs in certain regions, and specific product-category challenges. To improve overall business performance, further investigation into pricing strategies, logistics cost optimization, and product-specific profitability is recommended.
 
+## analysis.py
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -231,6 +234,4 @@ print(order_priority_counts)
 print("\nValue counts for Ship Mode in high_sales_low_profit:")
 print(ship_mode_counts)
 print(f"\nMean of Quantity in high_sales_low_profit: {quantity_mean_high_sales_low_profit:.4f}")
-
-
-``` 
+```
