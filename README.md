@@ -1,5 +1,4 @@
 
-```markdown
 # Global Superstore Sales Analysis
 
 ## Project Overview
